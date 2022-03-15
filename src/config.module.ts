@@ -14,6 +14,7 @@ import * as Joi from 'joi';
         USER: Joi.string().required(),
         PW: Joi.string().required(),
         TIMEOUT: Joi.number().default(30),
+        SECRET: Joi.string().required(),
       }),
     }),
   ],
